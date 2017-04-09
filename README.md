@@ -14,7 +14,7 @@
 | ------ | ------ |
 | upadate.php | Code PHP qui enregistre les 200 dernières VDMs dans le dossier saved |
 | posts.php | Code PHP qui permet la lecture des VDMs selon la ligne de commande entrée en paramètre |
-| tests.php | Code PHP qui test le code posts.php |
+| tests.php | Code PHP qui test unitairement le code posts.php |
 | composer.json | Code JSON qui gère les dépendances |
 
 | Dossier | Description |

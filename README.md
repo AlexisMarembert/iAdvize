@@ -2,8 +2,8 @@
 ## Test PHP Développeur
 
 > - Ce test proposé par iAdvize a été réalisé sous Windows 10.
-> - J'ai utilisé Wamp pour exécuter mon code php sous Windows
-> - J'exécute mon code de la manière suivante dans l'URL :
+> - J'ai utilisé WampServer pour exécuter mon code php sous Windows
+> - J'exécute sur ma machine, mon code de la manière suivante dans l'URL :
 ```sh
 /localhost/update.php
 /localhost/posts.php

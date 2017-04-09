@@ -16,7 +16,7 @@ Liste des fichiers utiles à la réalisation du test.
 | ------ | ------ |
 | Test métier... | PDF du sujet test PHP Développeur |
 | upadate.php | Code PHP qui enregistre les 200 dernières VDMs dans le dossier saved |
-| posts.php | Code PHP qui permet la lecture des VDMs selon l'URL entrée en paramètre |
+| posts.php | Code PHP qui permet la lecture des VDMs selon les paramètres entrés |
 | tests.php | Code PHP qui test unitairement le code posts.php |
 | composer.json | Code JSON qui gère les dépendances |
 
@@ -32,22 +32,22 @@ Liste des dossiers utiles à la réalisation du test.
 - ### STOCKAGE des VDMs
 Permet de créer le dossier "saved" contenant les dernières VDM du site http://www.viedemerde.fr/ au format JSON.
 ```sh
-/api/update
+php /api/update.php
 ```
 - ### LECTURE des VDMs
-Liste d'URLs réalisables pour la lecture des VDMs. 
+Liste de commandes réalisables pour la lecture des VDMs. 
 ```sh
-/api/posts
-/api/posts/$id
-/api/posts/
-/api/posts?from=$annee-$mois-$jour&to=$annee-$mois-$jour
-/api/tests?author=$auteur	
-/api/tests?from=$annee-$mois-$jour&to=$annee-$mois-$jour&author=$auteur
+php /api/posts.php
+php /api/posts.php/$id
+php /api/posts.php/
+php /api/posts.php?from=$annee-$mois-$jour&to=$annee-$mois-$jour
+php /api/tests.php?author=$auteur	
+php /api/tests.php?from=$annee-$mois-$jour&to=$annee-$mois-$jour&author=$auteur
 ```
 /!\ Remplacer par des valeurs choisis les variables suivantes : $id, $annee, $mois, $jour, $auteur.
 
 - ### TESTS de la lecture
-Utiliser l'URL suivante pour lancer le test unitaire.
+Utiliser la commande suivante pour lancer le test unitaire.
 ```sh
-/api/tests
+php /api/tests.php
 ```

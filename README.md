@@ -1,10 +1,10 @@
 # iAdvize
-test  PHP Développeur
+## Test  PHP Développeur
 
 | Fichier | Description |
 | ------ | ------ |
-| upadate.php | Code PHP qui télécharge les 200 dernières VDMs dans le dossier saved |
-| posts.php | Code PHP qui permet la recherche des VDMs selon la ligne de commande entrée en paramètre |
+| upadate.php | Code PHP qui enregistre les 200 dernières VDMs dans le dossier saved |
+| posts.php | Code PHP qui permet la lecture des VDMs selon la ligne de commande entrée en paramètre |
 | tests.php | Code PHP qui test le code posts.php |
 
 - ### STOCKAGE des VDMs

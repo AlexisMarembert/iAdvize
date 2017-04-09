@@ -21,6 +21,7 @@
 | ------ | ------ |
 | saved | Contenu des 200 fichiers .json de VDM de la dernière update |
 | testSaved | Contenu des 200 fichiers .json des VDMs tests |
+| simple_html_dom | Librairie qui permet de chercher dans une page web |
 
 - ### STOCKAGE des VDMs
 ```sh

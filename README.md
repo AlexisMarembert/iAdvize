@@ -1,7 +1,7 @@
 # iAdvize
 ## Test PHP Développeur
 
-> - Ce test proposé par iAdvize a été réalisé sous Windows 10.
+> - Ce test proposé par iAdvize le 06/04/2017 a été réalisé sous Windows 10 pour le 10/04/2017.
 > - J'ai utilisé WampServer pour exécuter mon code php sous Windows
 > - J'exécute sur ma machine, mon code de la manière suivante dans l'URL :
 > ```sh

@@ -47,7 +47,7 @@ Liste des commandes réalisables pour la lecture des VDMs.
 /!\ Remplacer par des valeurs choisis les variables suivantes : $id, $annee, $mois, $jour, $auteur.
 
 - ### TESTS de la lecture
-Utiliser la commande suivante pour lancer le test.
+Utiliser la commande suivante pour lancer le test unitaire.
 ```sh
 /api/tests
 ```

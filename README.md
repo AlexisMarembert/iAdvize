@@ -20,7 +20,7 @@
 
 | Dossier | Description |
 | ------ | ------ |
-| saved | Contenu des 200 fichiers .json de VDM de la dernière update |
+| saved | Contenu des 200 fichiers .json de VDM de la dernière update (exécuter update.php pour le créer) |
 | testSaved | Contenu des 200 fichiers .json des VDMs tests |
 | simple_html_dom | Librairie qui permet de chercher dans une page web |
 

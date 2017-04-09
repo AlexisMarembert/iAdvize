@@ -5,9 +5,9 @@
 > - J'ai utilisé WampServer pour exécuter mon code php sous Windows
 > - J'exécute sur ma machine, mon code de la manière suivante dans l'URL :
 > ```sh
-> /localhost/update.php
-> /localhost/posts.php
-> /localhost/tests.php
+> /localhost/update
+> /localhost/posts
+> /localhost/tests
 > ```
 
 Liste des fichiers utiles à la réalisation du test.

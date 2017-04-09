@@ -51,4 +51,4 @@ Utiliser la commande suivante pour lancer le test unitaire.
 ```sh
 php /api/tests.php
 ```
-> by Alexis MAREMBERT
+> par Alexis MAREMBERT

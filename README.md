@@ -44,7 +44,7 @@ Liste des commandes réalisables pour la lecture des VDMs.
 /api/tests?author=$auteur	
 /api/tests?from=$annee-$mois-$jour&to=$annee-$mois-$jour&author=$auteur
 ```
-/!\ Remplacer par des valeurs choisis : $id, $annee, $mois, $jour, $auteur.
+/!\ Remplacer par des valeurs choisis les variables suivantes : $id, $annee, $mois, $jour, $auteur.
 
 - ### TESTS de la lecture
 Utiliser la commande suivante pour lancer le test.

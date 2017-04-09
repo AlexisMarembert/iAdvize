@@ -37,9 +37,9 @@ Permet de créer le dossier "saved" contenant les dernières VDM du site http://
 - ### LECTURE des VDMs
 Liste des commandes réalisables pour la lecture des VDMs. 
 ```sh
-/api/posts/
-/api/posts/$id
 /api/posts
+/api/posts/$id
+/api/posts/
 /api/posts?from=$annee-$mois-$jour&to=$annee-$mois-$jour
 /api/tests?author=$auteur	
 /api/tests?from=$annee-$mois-$jour&to=$annee-$mois-$jour&author=$auteur

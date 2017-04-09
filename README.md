@@ -11,6 +11,7 @@
 > ```
 
 Liste des fichiers utiles à la réalisation du test.
+
 | Fichier | Description |
 | ------ | ------ |
 | Test métier... | PDF du sujet test PHP Développeur |
@@ -19,7 +20,9 @@ Liste des fichiers utiles à la réalisation du test.
 | tests.php | Code PHP qui test unitairement le code posts.php |
 | composer.json | Code JSON qui gère les dépendances |
 
-Liste des dossiers utiles à la réalisation du test
+
+Liste des dossiers utiles à la réalisation du test.
+
 | Dossier | Description |
 | ------ | ------ |
 | saved | Contenu des 200 fichiers .json de VDM de la dernière update (exécuter update.php pour le créer) |

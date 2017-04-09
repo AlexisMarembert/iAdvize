@@ -19,8 +19,8 @@
 
 | Dossier | Description |
 | ------ | ------ |
-| saved | Contenu de fichier .json de VDM de la dernière update |
-| testSaved | Contenu de fichiers .json des VDMs tests |
+| saved | Contenu des 200 fichiers .json de VDM de la dernière update |
+| testSaved | Contenu des 200 fichiers .json des VDMs tests |
 
 - ### STOCKAGE des VDMs
 ```sh

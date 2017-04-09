@@ -35,6 +35,7 @@ Permet de créer le dossier "saved" contenant les dernières VDM du site http://
 /api/update
 ```
 - ### LECTURE des VDMs
+Liste des commandes réalisables pour la lecture des VDMs. 
 ```sh
 /api/posts/
 /api/posts/$id
@@ -43,9 +44,10 @@ Permet de créer le dossier "saved" contenant les dernières VDM du site http://
 /api/tests?author=$auteur	
 /api/tests?from=$annee-$mois-$jour&to=$annee-$mois-$jour&author=$auteur
 ```
-Remplacer par des valeurs choisis : $id, $annee, $mois, $jour, $auteur.
+/!\ Remplacer par des valeurs choisis : $id, $annee, $mois, $jour, $auteur.
 
 - ### TESTS de la lecture
+Utiliser la commande suivante pour lancer le test.
 ```sh
 /api/tests
 ```

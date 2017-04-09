@@ -25,6 +25,7 @@
 | simple_html_dom | Librairie qui permet de chercher dans une page web |
 
 - ### STOCKAGE des VDMs
+Permet de créer le dossier saved contenant les dernières VDM du site http://www.viedemerde.fr/ au format JSON.
 ```sh
 /api/update
 ```

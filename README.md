@@ -4,7 +4,7 @@ test  PHP Développeur
 1ère étape : exécuter le code update.php
   /api/update
 
-2ème étape : exécuter le code posts.php
+2ème étape : exécuter le code posts.php\n
   /api/posts/
   /api/posts/$id
   /api/posts

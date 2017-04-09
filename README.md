@@ -10,6 +10,7 @@
 > /localhost/tests.php
 > ```
 
+Liste des fichiers utiles à la réalisation du test.
 | Fichier | Description |
 | ------ | ------ |
 | Test métier... | PDF du sujet test PHP Développeur |
@@ -18,6 +19,7 @@
 | tests.php | Code PHP qui test unitairement le code posts.php |
 | composer.json | Code JSON qui gère les dépendances |
 
+Liste des dossiers utiles à la réalisation du test
 | Dossier | Description |
 | ------ | ------ |
 | saved | Contenu des 200 fichiers .json de VDM de la dernière update (exécuter update.php pour le créer) |
@@ -25,7 +27,7 @@
 | simple_html_dom | Librairie qui permet de chercher dans une page web |
 
 - ### STOCKAGE des VDMs
-Permet de créer le dossier saved contenant les dernières VDM du site http://www.viedemerde.fr/ au format JSON.
+Permet de créer le dossier "saved" contenant les dernières VDM du site http://www.viedemerde.fr/ au format JSON.
 ```sh
 /api/update
 ```

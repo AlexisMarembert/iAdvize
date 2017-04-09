@@ -58,7 +58,7 @@
 	for ($i = 1; $i <= 200; $i++) {
 		
 		// On récupère le json
-		$json = json_decode(file_get_contents("saved/$i.json"));
+		$json = json_decode(file_get_contents("testSaved/$i.json"));
 		
 		// On récupère le timestamp du post
 		$ts = strtotime($json->date);

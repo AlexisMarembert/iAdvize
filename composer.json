@@ -1,0 +1,9 @@
+{
+	"name": "VDM",
+	"description": "Récupère les 200 dernières VDMs.",
+	"autoload": {
+		"classmap": [
+			"api/simple_html_dom/simple_html_dom.php"
+		]
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"name": "VDM",
+	"name": "iAdvize",
 	"description": "Récupère les 200 dernières VDMs.",
 	"autoload": {
 		"classmap": [

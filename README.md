@@ -16,7 +16,7 @@ Liste des fichiers utiles à la réalisation du test.
 | ------ | ------ |
 | Test métier... | PDF du sujet test PHP Développeur |
 | upadate.php | Code PHP qui enregistre les 200 dernières VDMs dans le dossier saved |
-| posts.php | Code PHP qui permet la lecture des VDMs selon la ligne de commande entrée en paramètre |
+| posts.php | Code PHP qui permet la lecture des VDMs selon l'URL entrée en paramètre |
 | tests.php | Code PHP qui test unitairement le code posts.php |
 | composer.json | Code JSON qui gère les dépendances |
 
@@ -35,7 +35,7 @@ Permet de créer le dossier "saved" contenant les dernières VDM du site http://
 /api/update
 ```
 - ### LECTURE des VDMs
-Liste des commandes réalisables pour la lecture des VDMs. 
+Liste d'URLs réalisables pour la lecture des VDMs. 
 ```sh
 /api/posts
 /api/posts/$id
@@ -47,7 +47,7 @@ Liste des commandes réalisables pour la lecture des VDMs.
 /!\ Remplacer par des valeurs choisis les variables suivantes : $id, $annee, $mois, $jour, $auteur.
 
 - ### TESTS de la lecture
-Utiliser la commande suivante pour lancer le test unitaire.
+Utiliser l'URL suivante pour lancer le test unitaire.
 ```sh
 /api/tests
 ```
